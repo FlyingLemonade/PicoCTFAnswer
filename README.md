@@ -1,2 +1,2 @@
 # PicoCTFAnswer
-The Answer and Secret Key for PicoCTF
+The Answer Key for PicoCTF
