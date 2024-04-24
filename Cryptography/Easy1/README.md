@@ -24,32 +24,32 @@ The one time pad can be cryptographically secure, but not when you know the key.
 
  or just use this https://www.dcode.fr/vigenere-cipher
 
-  U + S --> Y 
-  F + O --> J 
-  J + L --> C
-  K + V --> L
-  X + E --> H
-  Q + C --> M
-  Z + R --> S
-  Q + Y --> I
-  U + P --> V
-  N + T --> G
-  B + O --> N
+  U + S --> Y <br>
+  F + O --> J <br>
+  J + L --> C <br>
+  K + V --> L <br>
+  X + E --> H <br>
+  Q + C --> M <br>
+  Z + R --> S <br>
+  Q + Y --> I <br>
+  U + P --> V <br>
+  N + T --> G <br>
+  B + O --> N <br>
 
   sadly the answer is not YJCLHMSIVGN, so i turn
   the formula
 
-  S + U --> C 
-  O + F --> R 
-  L + J --> Y
-  V + K --> P
-  E + X --> T
-  C + Q --> O
-  R + Z --> I
-  Y + Q --> S
-  P + U --> F
-  T + N --> U
-  O + B --> N
+  S + U --> C <br>
+  O + F --> R <br>
+  L + J --> Y <br>
+  V + K --> P <br>
+  E + X --> T <br>
+  C + Q --> O <br>
+  R + Z --> I <br>
+  Y + Q --> S <br>
+  P + U --> F <br>
+  T + N --> U <br>
+  O + B --> N <br>
 
  this second result looks like the flag
  
