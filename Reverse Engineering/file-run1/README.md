@@ -1,25 +1,18 @@
-# Some Assembly Required 1
+# file-run1
 
-(link)
+A program has been provided to you, what happens if you try to run it on the command line? Download the program here.
 
 # Hints
 
-no hints.
+1. To run the program at all, you must make it executable (i.e. $ chmod +x run)
+2. Try running it by adding a '.' in front of the path to the file (i.e. $ ./run)
+
 
 # What I Did
 
-I tried everything on the website and then check the website source,
-I saw nothing on the html code then I went to the script file.
-The script file is obfuscated and almost impossible for me to understand it,
-so i ask ChatGpt to deobfuscate the java script code and i get
-more understandable script (script.js).
-In the script I saw that it fetch something from another path of URL
+Seeing the hints, i assume that i just need to run the file to get the flag.
+Yep here is the flag
 
-```'./JIFxzHyW8W'```
-
-I tried curl (link)/JIFxzHyW8W
-
-and i get the flag at the bottom part of the output
-the flag is
-
-``` picoCTF{d88090e679c48f3945fcaa6a7d6d70c5} ```
+```
+picoCTF{U51N6_Y0Ur_F1r57_F113_9bc52b6b}
+```

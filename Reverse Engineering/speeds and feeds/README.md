@@ -1,6 +1,6 @@
-# Some Assembly Required 1
+# speeds and feeds
 
-(link)
+There is something on my shop network running at nc mercury.picoctf.net 53740, but I can't tell what it is. Can you?
 
 # Hints
 
