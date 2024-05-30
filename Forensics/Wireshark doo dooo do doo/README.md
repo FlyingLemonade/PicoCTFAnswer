@@ -1,6 +1,6 @@
-# Some Assembly Required 1
+# Wireshark doo dooo do doo...
 
-(link)
+Can you find the flag? shark1.pcapng.
 
 # Hints
 
@@ -8,18 +8,19 @@ no hints.
 
 # What I Did
 
-I tried everything on the website and then check the website source,
-I saw nothing on the html code then I went to the script file.
-The script file is obfuscated and almost impossible for me to understand it,
-so i ask ChatGpt to deobfuscate the java script code and i get
-more understandable script (script.js).
-In the script I saw that it fetch something from another path of URL
+I download the file and open it in wireshark
+i try following the stream and the in stream 5
+i find this suspicious string
+<img src="Pic_1.JPG">
 
-```'./JIFxzHyW8W'```
+Gur synt vf cvpbPGS{c33xno00_1_f33_h_qrnqorrs}
 
-I tried curl (link)/JIFxzHyW8W
+I put it in caesar decoder
+https://www.dcode.fr/caesar-cipher?__r=1.08ae94576cccefccc35eb9363194e30f
 
-and i get the flag at the bottom part of the output
-the flag is
+<img src="Pic_2.JPG">
 
-``` picoCTF{d88090e679c48f3945fcaa6a7d6d70c5} ```
+
+and i get the flag, the flag is
+
+``` picoCTF{p33kab00_1_s33_u_deadbeef} ```
