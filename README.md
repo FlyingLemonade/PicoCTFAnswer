@@ -8,15 +8,13 @@
 To do : 
 
 <ol>
-  <li>Advanced Potion Making</li>
-  <li>Enchance!</li>
-  <li>MacroHard WeakEdge</li>
   <li>PcapPoisoning</li>
   <li>Redaction gone wrong</li>
-  <li>Wireshark doo dooo do doo</li>
   <li>extensions</li>
   <li>hideme</li>
   <li>information</li>
+  <li>Trivial Flag Transfer Protocol</li>
+
 </ol>
 
 

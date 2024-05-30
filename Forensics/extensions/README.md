@@ -1,25 +1,22 @@
-# Some Assembly Required 1
+# extensions
 
-(link)
+This is a really weird text file TXT? Can you find the flag?
+
 
 # Hints
 
-no hints.
+1. How do operating systems know what kind of file it is? (It's not just the ending!)
+2. Make sure to submit the flag as picoCTF{XXXXX}
 
 # What I Did
 
-I tried everything on the website and then check the website source,
-I saw nothing on the html code then I went to the script file.
-The script file is obfuscated and almost impossible for me to understand it,
-so i ask ChatGpt to deobfuscate the java script code and i get
-more understandable script (script.js).
-In the script I saw that it fetch something from another path of URL
+Based on the file header i see that it is a PNG header file
+so i need to change the file extension to png
+<img src="Pic_1.jpg">
 
-```'./JIFxzHyW8W'```
+When i open the file it shows me the flag
+<img src="flag.png">
 
-I tried curl (link)/JIFxzHyW8W
-
-and i get the flag at the bottom part of the output
 the flag is
 
-``` picoCTF{d88090e679c48f3945fcaa6a7d6d70c5} ```
+``` picoCTF{now_you_know_about_extensions} ```
