@@ -19,6 +19,7 @@ Tools :
 <li>https://exif.tools/</li>
 <li>https://hexed.it/</li>
 <li>https://futureboy.us/stegano/decinput.html</li>
+</ol>
 
 ## General Skills
 
