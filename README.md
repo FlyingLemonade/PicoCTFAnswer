@@ -5,12 +5,6 @@
 ## Cryptography
 
 ## Forensics
-To do : 
-
-<ol>
- 
-
-</ol>
 
 Tools :
 
