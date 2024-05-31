@@ -8,15 +8,17 @@
 To do : 
 
 <ol>
-  <li>PcapPoisoning</li>
-  <li>Redaction gone wrong</li>
-  <li>extensions</li>
-  <li>hideme</li>
-  <li>information</li>
-  <li>Trivial Flag Transfer Protocol</li>
+ 
 
 </ol>
 
+Tools :
+
+<ol>
+<li>https://georgeom.net/StegOnline/upload</li>
+<li>https://exif.tools/</li>
+<li>https://hexed.it/</li>
+<li>https://futureboy.us/stegano/decinput.html</li>
 
 ## General Skills
 
