@@ -30,11 +30,14 @@ Tools :
 To do : 
 
 <ol>
-  <li>Picker I</li>
   <li>reverse_cipher</li>
   <li>speeds and feeds</li>
 </ol>
 
+Tools :
+<ol>
+<li>https://cryptii.com/pipes/hex-decoder</li>
+</ol>
 
 
 ## Web Exploitation

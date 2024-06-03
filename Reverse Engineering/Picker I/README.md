@@ -1,25 +1,40 @@
-# Some Assembly Required 1
+# Picker I
 
-(link)
+This service can provide you with a random number, but can it do anything else?
+Connect to the program with netcat:
+The program's source code can be downloaded here.
 
 # Hints
 
-no hints.
+1. Can you point the program to a function that does something useful for you?
 
 # What I Did
 
-I tried everything on the website and then check the website source,
-I saw nothing on the html code then I went to the script file.
-The script file is obfuscated and almost impossible for me to understand it,
-so i ask ChatGpt to deobfuscate the java script code and i get
-more understandable script (script.js).
-In the script I saw that it fetch something from another path of URL
+Looking at the picker-1.py i see that there is a function that calls the flag
+it is win() function. 
 
-```'./JIFxzHyW8W'```
+Then i try to nc the program on picoCTF terminal.
+So the program basically works by the user calling the function name
+as its input, so we just need to put win in the input to get the flag.
 
-I tried curl (link)/JIFxzHyW8W
+<img src="Pic_1.jpg">
 
-and i get the flag at the bottom part of the output
+It gives me hexadecimal value i need to convert it to normal letter
+by using online converter
+
+https://cryptii.com/pipes/hex-decoder
+
+``` 
+70 69 63 6f 43 54 46 7b 34 5f 64 31 34 6d 30 6e 64 5f 31 6e 5f 37 68 33 5f 72 30 75 67 68 5f 62 35 32 33 62 32 61 31 7d 
+```
+
+after i convert it, it shows me the flag
+<img src="Pic_2.jpg">
+
 the flag is
 
-``` picoCTF{d88090e679c48f3945fcaa6a7d6d70c5} ```
+```
+
+picoCTF{4_d14m0nd_1n_7h3_r0ugh_b523b2a1}
+
+```
