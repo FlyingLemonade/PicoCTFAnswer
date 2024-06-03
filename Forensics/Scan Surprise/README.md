@@ -21,4 +21,8 @@ and then i get the flag after i scan it
 <img src="Pic_1.JPG">
 
 and the flag is
-``` picoCTF{p33k_@_b00_7843f77c} ```
+```
+
+picoCTF{p33k_@_b00_7843f77c} 
+
+```

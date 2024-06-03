@@ -6,6 +6,14 @@
 
 ## Forensics
 
+To do : 
+
+<ol>
+  <li>Wireshark twoo twooo two twoo</li>
+  <li>FindAndOpen</li>
+</ol>
+
+
 Tools :
 
 <ol>
@@ -23,7 +31,6 @@ To do :
 
 <ol>
   <li>Picker I</li>
-  <li>GDB baby step 1</li>
   <li>reverse_cipher</li>
   <li>speeds and feeds</li>
 </ol>

@@ -19,4 +19,8 @@ When i open the file it shows me the flag
 
 the flag is
 
-``` picoCTF{now_you_know_about_extensions} ```
+``` 
+
+picoCTF{now_you_know_about_extensions} 
+
+```

@@ -14,10 +14,13 @@ Based on the description of the file, i just need to dissasamble main function
 and look at eax register value.
 
 So i download the debugger in picoCTF terminal and using gdb to debug it
-the i put ``` info function ``` to get all functions available in the program that given by the question.
+the i put ``` info function ``` command to get all functions
+available in the program that given by the question.
+
 <img src="Pic_1.jpg">
 
-then i dissasamble the main function. 
+then i dissasamble the main function.
+
 <img src="Pic_2.jpg">
 
 based on the disassembled main we can see that the %eax is filled with  $0x86342

@@ -21,7 +21,9 @@ decryptor file given (decrypt.sh).
 
 so i use command in the list of files to get the files we are looking for
 
-``` sha256sum files/* |grep "b09c99c555e2b39a7e97849181e8996bc6a62501f0149c32447d8e65e205d6d2" ```
+``` 
+sha256sum files/* |grep "b09c99c555e2b39a7e97849181e8996bc6a62501f0149c32447d8e65e205d6d2" 
+```
 
 and we get this
 <img src="Pic_1.jpg">
@@ -46,4 +48,8 @@ and it gives me the flag
 
 the flag is
 
-``` picoCTF{trust_but_verify_451fd69b} ```
+``` 
+
+picoCTF{trust_but_verify_451fd69b} 
+
+```

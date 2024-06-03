@@ -20,4 +20,8 @@ i find the flag.
 
 The flag is
 
-``` picoCTF{Hiddinng_An_imag3_within_@n_ima9e_dc2ab58f} ```
+``` 
+
+picoCTF{Hiddinng_An_imag3_within_@n_ima9e_dc2ab58f} 
+
+```

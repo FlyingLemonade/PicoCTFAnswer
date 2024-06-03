@@ -14,7 +14,11 @@ i get it in one of the packet
 <image src="Pic_1.jpg">
 
 the flag is
-``` picoCTF{P64P_4N4L7S1S_SU55E55FUL_5b6a6961} ```
+``` 
+
+picoCTF{P64P_4N4L7S1S_SU55E55FUL_5b6a6961} 
+
+```
 
 
 

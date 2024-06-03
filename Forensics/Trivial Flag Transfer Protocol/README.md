@@ -63,6 +63,10 @@ DUEDILIGENCE (with uppercase letter) as it password.
 
 and the flag is
 
-``` picoCTF{h1dd3n_1n_pLa1n_51GHT_18375919} ```
+``` 
+
+picoCTF{h1dd3n_1n_pLa1n_51GHT_18375919} 
+
+```
 
 
