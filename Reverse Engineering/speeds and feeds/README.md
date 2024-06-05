@@ -4,22 +4,32 @@ There is something on my shop network running at nc mercury.picoctf.net 53740, b
 
 # Hints
 
-no hints.
+1. What language does a CNC machine use?
 
 # What I Did
 
-I tried everything on the website and then check the website source,
-I saw nothing on the html code then I went to the script file.
-The script file is obfuscated and almost impossible for me to understand it,
-so i ask ChatGpt to deobfuscate the java script code and i get
-more understandable script (script.js).
-In the script I saw that it fetch something from another path of URL
+I run the command in terminal, it prints
+a lot of string that looks like a code. Based
+on the hint, it tells us that it is a CNC machine language
+so i google "CNC machine language". The language used called
+G-Code. Then i google some words related to G-code
+and then i find this drawer
 
-```'./JIFxzHyW8W'```
+```
+https://ncviewer.com/
+```
+<img src="Pic_1.png">
 
-I tried curl (link)/JIFxzHyW8W
+so i just need to copy all of the file in the nc link and then put it
+in the G-ccode drawer. Since the output from nc is too much, i need to put it
+in a file, the file is in "G-code" file in this folder.
 
-and i get the flag at the bottom part of the output
-the flag is
+It shows me the flag
+<img src="Pic_2.png">
 
-``` picoCTF{d88090e679c48f3945fcaa6a7d6d70c5} ```
+and the flag is
+```
+
+picoCTF{num3r1cal_c0ntr0l_775375c7}
+
+```

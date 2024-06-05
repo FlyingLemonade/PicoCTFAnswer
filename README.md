@@ -1,4 +1,4 @@
-# PicoCTF WriteUps
+## PicoCTF WriteUps
 
 ## Binary Exploitation
 
@@ -31,7 +31,6 @@ To do :
 
 <ol>
   <li>reverse_cipher</li>
-  <li>speeds and feeds</li>
 </ol>
 
 Tools :
