@@ -6,13 +6,6 @@
 
 ## Forensics
 
-To do : 
-
-<ol>
-
-</ol>
-
-
 Tools :
 
 <ol>
@@ -26,11 +19,6 @@ Tools :
 
 
 ## Reverse Engineering
-To do : 
-
-<ol>
-  <li>reverse_cipher</li>
-</ol>
 
 Tools :
 <ol>
