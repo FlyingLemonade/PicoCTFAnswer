@@ -18,5 +18,9 @@ using this online number to words decoder
 https://www.boxentriq.com/code-breaking/numbers-to-letters
 and it showed me the flag.
 
-``` picoctf{thenumbersmason}```
+```
+
+picoctf{thenumbersmason}
+
+```
 
