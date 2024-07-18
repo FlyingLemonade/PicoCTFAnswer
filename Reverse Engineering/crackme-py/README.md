@@ -18,5 +18,7 @@ decode_secret(bezos_cc_secret)
 and the flag is
 
 ```
+
 picoCTF{1|\/|_4_p34|\|ut_f3bc410e}
+
 ```
